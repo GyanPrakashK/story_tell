@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* styles/globals.css */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
   }
-}
+  
+  /* Apply the fade-in animation */
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Apply the typing animation */
+  .typing {
+    display: inline-block;
+    overflow: hidden; /* Ensure content stays hidden until animated */
+    white-space: nowrap; /* Prevent wrapping */
+    animation: typing 2s steps(30) 1s forwards;
+    border-right: 3px solid #000; /* Simulate cursor effect */
+  }
+  
