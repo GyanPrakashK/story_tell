@@ -10,7 +10,12 @@ export async function POST(req) {
     const chatCompletion = await groq.chat.completions.create({
       messages: [
         { role: "system", content: "You are a helpful assistant." },
-        { role: "user", content: prompt },
+        {
+          role: "user",
+          content:
+            prompt +
+            "generate a story with proper starting and ending that helps childrens to learn about the topic with a beautiful story.",
+        },
       ],
       model: "llama3-8b-8192",
       temperature: 0.5,
