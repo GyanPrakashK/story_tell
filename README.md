@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This repository contains a README file sample for Daytona Samples and the MIT License.
 
-## Getting Started
+It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
 
-First, run the development server:
+Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Sample <LANGUAGE/FRAMEWORK>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sample description
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Getting Started  
 
-## Learn More
+### Open Using Daytona  
 
-To learn more about Next.js, take a look at the following resources:
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+2. **Create the Workspace**:  
+   ```bash  
+   daytona create <SAMPLE_REPO_URL> 
+   ```  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+... MORE STEPS IF NEEDED ...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Start the Application**:  
+   ```bash  
+   command to start the app
+   ```  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Features  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
